@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url('google_bg.jpg');
+    background-size:cover;
+}
+
+header{
+    height:50px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    z-index: 110;
+   
+
+}
+
+#img1{
+    width: 38px;
+    margin: -10px 0px;
+    border: 2px solid black;
+    border-radius: 26px;  
+    cursor: pointer;
+    
+}
+
+#img2{
+    width: 30px;
+    margin: -14px 8px;
+    border: 2px solid;
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+header span{
+    margin: 19px 16px;
+    cursor: pointer;
+}
+
+.container{
+    color: white;
+    width:60vw;
+    height: 60vh;
+    /* border: 2px solid white; */
+    position: relative;
+    top: 203px;
+    margin: 0px auto;
+    text-align: center;
+}
+.container h1{
+    font-size: 83px;
+}
+
+.container input{
+    width: 489px;
+height: 35px;
+text-align: center;
+
+margin: 51px;
+border-radius: 45px;
+position: relative;
+right: -125px;
+}
+
+#img3{
+    width: 21px;
+position: relative;
+left: -397px;
+top: 6px;
+}
+
+#img4{
+    width: 34px;
+position: relative;
+left: -122px;
+top: 4px;
+}
+
+#img5{
+    width: 27px;
+position: relative;
+bottom: -50px;
+left: -377px;
+cursor: pointer;
+}
+
+#web{
+    position: relative;
+top: 69px;
+right:425px;
+}
+
+#img6{
+    width: 37px;
+position: relative;
+top: 58px;
+right:368px;
+cursor: pointer;
+}
+
+#youtube{
+    position: relative;
+top: 68px;
+right: 415px;
+}
+
+#img7{
+    width: 25px;
+position: relative;
+top: 51px;
+right:342px;
+border-radius: 19px;
+cursor: pointer;
+}
+#shortcut{
+    position: relative;
+    top: -14px;
+    right: -88px;
+}
+
+#menubar{
+    position: absolute;
+    top: -384px;
+    position: absolute;
+    /* top: 58px; */
+    right: 29px;
+    
+}
+#screenshot{
+    position: absolute;
+top: 61px;
+right: 58px;
+top: -323px;
+width: 244px;
+}
